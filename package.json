@@ -1,0 +1,21 @@
+{
+    "name": "Jekkow",
+    "displayName": "Melanistic",
+    "description": "Melanistic theme for Visual Studio Code",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.61.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Melanistic",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Melanistic-color-theme.json"
+            }
+        ]
+    }
+}
