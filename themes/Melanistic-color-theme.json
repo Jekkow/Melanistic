@@ -2,10 +2,23 @@
 	"name": "Melanistic",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#263238",
+		"editor.background": "#161414",
 		"editor.foreground": "#eeffff",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"editorIndentGuide.background": "#e7f18a75",
+		"activityBarBadge.background": "#505050",
+		"sideBarTitle.foreground": "#bbbbbb",
+		"editorBracketMatch.border": "#e637c8",
+		"editor.findMatchBackground": "#710886",
+		"button.background": "#8d0fa7",
+		"editorGroup.dropBackground": "#8e0fa741",
+		"statusBar.background": "#141414",
+		"keybindingLabel.background": "#696869",
+		"keybindingLabel.foreground": "#ffffff",
+		"minimap.background": "#38373765",
+		"terminal.background": "#000000",
+		"terminal.foreground": "#ffffff",
+		"terminal.selectionBackground": "#e637c8",
+		"progressBar.background": "#e637c8"
 	},
 	"tokenColors": [
 		{
@@ -16,7 +29,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#546E7A"
+				"foreground": "#7da565"
 			}
 		},
 		{
@@ -26,7 +39,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -56,7 +69,8 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#FFCB6B",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -76,7 +90,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#58bbe2"
 			}
 		},
 		{
@@ -100,7 +114,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#9b9b9b"
 			}
 		},
 		{
@@ -123,10 +137,31 @@
 			}
 		},
 		{
-			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
-			"scope": [
+			"name": "Quoted String",
+			"scope":[
+				"string.quoted",
+				"string.quoted.double",
+				"string.quoted.single",
+				"string.quoted.triple",
+				"string.quoted.other"
+			],
+			"settings": {
+				"foreground": "#e1dee4",
+			}
+		},
+		{
+			"name": "Constant values",
+			"scope":[
 				"constant.numeric",
 				"constant.language",
+			],
+			"settings": {
+				"foreground": "#da84e6",
+			}
+		},
+		{
+			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+			"scope": [
 				"support.constant",
 				"constant.character",
 				"constant.escape",
@@ -135,7 +170,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#4a6ddd"
 			}
 		},
 		{
@@ -166,7 +201,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#ab83ff"
 			}
 		},
 		{
@@ -175,7 +210,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#de7ff1"
 			}
 		},
 		{
