@@ -11,7 +11,7 @@ A Visual Studio Code dark theme.
 7. From the menu bar click: Code > Preferences > Color Theme > **Melanistic**
 
 ## Misc
-This is my first experience into creating a VS Code theme, so if you see something out of place, please feel free to [file an issue](https://github.com/Jekkow/Melanistic/issues)!
+This is my first experience into creating a VS Code theme, so if you see something out of place, please feel free to [file an issue](https://github.com/Jekkow/melanistic-dark-theme/issues)!
 
 Any relevant changes for each version are documented in the changelog. Please update and check the changelog before filing any issues, as they may have already been taken care of.
 
