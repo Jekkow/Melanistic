@@ -2,7 +2,7 @@
     "name": "melanistic-dark-theme",
     "displayName": "Melanistic Dark Theme",
     "description": "Melanistic theme for Visual Studio Code",
-    "version": "0.0.2",
+    "version": "0.1.0",
     "publisher": "JEK",
     "repository": {
         "type": "git",
