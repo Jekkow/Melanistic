@@ -1,25 +1,142 @@
 {
 	"name": "Melanistic",
 	"type": "dark",
+	"semanticHighlighting": false,
 	"colors": {
+		// editor
 		"editor.background": "#161414",
-		"editor.foreground": "#eeffff",
+		"editor.foreground": "#ffffff",
 		"editorIndentGuide.background": "#e7f18a75",
-		"activityBarBadge.background": "#505050",
-		"sideBarTitle.foreground": "#bbbbbb",
-		"editorBracketMatch.border": "#e637c8",
-		"editor.findMatchBackground": "#710886",
-		"button.background": "#524f4f",
-		"button.hoverBackground": "#141414",
-		"editorGroup.dropBackground": "#8e0fa741",
+		"editorBracketMatch.border": "#FFCB6B",
+		"editor.findMatchBackground": "#FFCB6B",
+		"editorLineNumber.foreground": "#acabab",
+		"editorLineNumber.activeForeground": "#FFCB6B",
+		"editorCursor.foreground": "#ffffff",
+		"editor.selectionBackground": "#f7f3ec49",
+		"editor.selectionHighlightBackground": "#f7f3ec49",
+		// check further editor settings
+
+		// base colors
+		"icon.foreground": "#a1a1a1",
+
+		"focusBorder": "#adacac",
+		"foreground": "#ffffff",
+		"selection.background": "#f7f3ec49",
+		"descriptionForeground": "#ffffff",
+		
+		// text
+		"textLink.foreground": "#FFCB6B",
+
+		// action
+		"toolbar.hoverOutline": "#dadada",
+
+		// button
+		"button.background": "#141414",
+		"button.hoverBackground": "#3d3d3d",
+		"button.foreground": "#ffffff",
+		
+		// checkbox
+		"checkbox.background": "#141414",
+		"checkbox.foreground": "#ffffff",
+
+		// dropdown
+		"dropdown.background": "#141414",
+		"dropdown.foreground": "#ffffff",
+		"dropdown.listBackground": "#141414",
+
+		// search
+		"input.background": "#141414",
+		"input.foreground": "#ffffff",
+		"input.placeholderForeground": "#ffffff",
+		"inputOption.activeBackground": "#b9b7b7",
+		"inputOption.activeForeground": "#1f1e1e",
+		"inputValidation.errorBackground": "#d15353",
+		"inputValidation.errorBorder": "#d15353",
+		"inputValidation.errorForeground": "#ffffff",
+		// check whats inputvalidationi ino & warning exactly is
+
+		// scrollbar
+		"scrollbarSlider.activeBackground": "#b9b7b7",
+		"scrollbarSlider.background": "#b9b7b7",
+		"scrollbarSlider.hoverBackground": "#b9b7b7",
+
+		// badge
+		"badge.background": "#000000",
+		"badge.foreground": "#ffffff",
+
+		// progressbar
+		"progressBar.background": "#FFCB6B",
+
+		// list and trees
+		"list.activeSelectionBackground": "#161616",
+		"list.activeSelectionForeground": "#FFCB6B",
+		"list.activeSelectionIconForeground": "#FFCB6B",
+		"list.dropBackground": "#161616",
+		//"list.focusBackground": "#ff0000", ???
+		//"list.focusForeground": "#ff0000", ???
+		// Check further list and trees documentation before continue with this subject
+
+		// activity bar
+		"activityBar.background": "#181818",
+		"activityBar.foreground": "#ffffff",
+		"activityBarBadge.foreground": "#ffffff",
+		"activityBar.activeBorder": "#FFCB6B",
+		"activityBar.activeBackground": "#0c0c0c",
+
+		// side bar
+		"sideBarTitle.foreground": "#bbbbbb",	
+		"sideBar.background": "#222121",
+		"sideBarSectionHeader.background": "#0c0c0c",
+		"sideBarSectionHeader.foreground": "#ffffff",
+
+		// minimap
+		"minimap.selectionHighlight": "#FFCB6B",
+		"minimap.errorHighlight": "#d15353",
+		"minimap.warningHighlight": "#d15353",
+		"minimap.background": "#38373765",
+
+		// groups & tabs
+		"editorGroup.dropBackground": "#ffcb6b33",
+		"editorGroupHeader.tabsBackground": "#161414",
+		// check further groups & tabs settings
+
+		// diff editor
+		// editor widget
+		// peek view
+		// merge conflicts
+		// panel
+		// status bar
 		"statusBar.background": "#141414",
+		"statusBarItem.remoteBackground": "#141414",
+		"statusBarItem.remoteForeground": "#FFCB6B",
+		// title bar
+		// menu bar
+		// notifications
+		// banner
+		// extentions
+		// quick picker
+		// keybinding label
 		"keybindingLabel.background": "#696869",
 		"keybindingLabel.foreground": "#ffffff",
-		"minimap.background": "#38373765",
+		// keyboard shortcut table
+		// integrated terminal
 		"terminal.background": "#000000",
 		"terminal.foreground": "#ffffff",
-		"terminal.selectionBackground": "#e637c8",
-		"progressBar.background": "#e637c8"
+		"terminal.selectionBackground": "#FFCB6B",
+		// debug
+		// testing
+		// welcome page
+		// source control
+		// git
+		// settings editor
+		// breadcrumbs
+		// snippets
+		// symbol icons
+		// debug icons
+		// notebook
+		// chart
+		// ports
+		
 	},
 	"tokenColors": [
 		{
